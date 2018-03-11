@@ -1,5 +1,5 @@
 # CAbuseSort
-Quicksort packed into the header of a for loop. This relies on a few *interesting* features of the C Language
+CAbuse Sort (caboose sort) is an implementation of quicksort packed into the header of a for loop. This relies on a few *interesting* features of the C Language, but in no way violates the standard.
 
 ## Comma Expressions
 C executes **Statements** in a top down manner, but it also executes **Expressions** in a left to right order with the value of the expessions being the value of the rightmost expression in the list.
