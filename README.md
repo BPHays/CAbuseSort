@@ -61,7 +61,7 @@ void qs(int * a, int s) {
     for (int i = 0, w = 0; s > 1 && (i < s-1 || (qs(a,w), qs(a+w+1,s-w-1), 0)); ((a[i] < a[s-1] ? (a[i] != a[w] ? a[w] ^= a[i], a[i] ^= a[w], a[w] ^= a[i], w++ : w++): 1), i++), i == s-1 ? (a[w] != a[s-1] ? a[s-1] ^= a[w], a[w] ^= a[s-1], a[s-1] ^= a[w], 1 : 1) : 1);
 }
 ```
-Or *slightly* more readably
+Or *slightly* more readably. When formatting code to more closely resemble lisp syntax increases readability something is wrong.
 ``` C
 void qs(int * a, int s) {
         for (
