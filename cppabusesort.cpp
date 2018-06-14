@@ -1,6 +1,5 @@
-#include <algorithm>
-#include <iomanip>
 #include <iostream>
+#include <vector>
 
 #if 0
 Credit for the implementation of QuickSort here is fully owed to Brian Hays, Purdue University.
