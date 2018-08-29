@@ -1,0 +1,4 @@
+## Intermediate Build Files
+*.o
+## The demo program
+*demo
