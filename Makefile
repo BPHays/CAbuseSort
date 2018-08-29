@@ -1,8 +1,8 @@
 CXX = g++
 CXXFLAGS = --std=c++17
 
-TARGET = cppabusesort
-SRCS = cppabusesort.cpp
+TARGET = quicksort_demo
+SRCS = test.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
